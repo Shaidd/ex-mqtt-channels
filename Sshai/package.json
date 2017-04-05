@@ -1,0 +1,32 @@
+{
+  "name": "ex-mqtt-channels",
+  "description": "ex-mqtt-channels",
+  "author": "prof",
+  "keywords": [
+    "ex-mqtt-channels"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.2.0",
+    "mute": "^2.0.6",
+    "q": "^1.4.1",
+    "request": "^2.79.0",
+    "chai": "^3.5.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "mosca": "^2.2.0",
+    "mqtt": "^2.5.2"
+  }
+}
